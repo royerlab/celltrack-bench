@@ -1,0 +1,34 @@
+{
+  "01": {
+    "source_sequence": "151029_E1-1",
+    "source_path": "datasets_raw/Bacteria-vanVliet/rpsM/151029_E1-1"
+  },
+  "02": {
+    "source_sequence": "151029_E1-5",
+    "source_path": "datasets_raw/Bacteria-vanVliet/rpsM/151029_E1-5"
+  },
+  "03": {
+    "source_sequence": "151029_E1-6",
+    "source_path": "datasets_raw/Bacteria-vanVliet/rpsM/151029_E1-6"
+  },
+  "04": {
+    "source_sequence": "151101_E2-1",
+    "source_path": "datasets_raw/Bacteria-vanVliet/rpsM/151101_E2-1"
+  },
+  "05": {
+    "source_sequence": "151101_E2-2",
+    "source_path": "datasets_raw/Bacteria-vanVliet/rpsM/151101_E2-2"
+  },
+  "06": {
+    "source_sequence": "151101_E3-11",
+    "source_path": "datasets_raw/Bacteria-vanVliet/rpsM/151101_E3-11"
+  },
+  "07": {
+    "source_sequence": "151101_E3-12",
+    "source_path": "datasets_raw/Bacteria-vanVliet/rpsM/151101_E3-12"
+  },
+  "08": {
+    "source_sequence": "151101_E4-12",
+    "source_path": "datasets_raw/Bacteria-vanVliet/rpsM/151101_E4-12"
+  }
+}

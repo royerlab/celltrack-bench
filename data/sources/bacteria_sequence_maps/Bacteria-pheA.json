@@ -1,0 +1,22 @@
+{
+  "01": {
+    "source_sequence": "150324-03",
+    "source_path": "datasets_raw/Bacteria-vanVliet/pheA/150324-03"
+  },
+  "02": {
+    "source_sequence": "150324-05",
+    "source_path": "datasets_raw/Bacteria-vanVliet/pheA/150324-05"
+  },
+  "03": {
+    "source_sequence": "150325-04",
+    "source_path": "datasets_raw/Bacteria-vanVliet/pheA/150325-04"
+  },
+  "04": {
+    "source_sequence": "160112-04",
+    "source_path": "datasets_raw/Bacteria-vanVliet/pheA/160112-04"
+  },
+  "05": {
+    "source_sequence": "160112-06",
+    "source_path": "datasets_raw/Bacteria-vanVliet/pheA/160112-06"
+  }
+}

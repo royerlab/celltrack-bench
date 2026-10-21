@@ -1,0 +1,171 @@
+{
+  "attributes": {
+    "geff": {
+      "geff_version": "1.1",
+      "directed": true,
+      "axes": [
+        {
+          "name": "t",
+          "type": "time",
+          "unit": null,
+          "min": 0.0,
+          "max": 114.0,
+          "scale": null,
+          "scaled_unit": null,
+          "offset": null
+        },
+        {
+          "name": "z",
+          "type": "space",
+          "unit": null,
+          "min": 0.0,
+          "max": 0.0,
+          "scale": null,
+          "scaled_unit": null,
+          "offset": null
+        },
+        {
+          "name": "y",
+          "type": "space",
+          "unit": null,
+          "min": 52.0,
+          "max": 469.0,
+          "scale": null,
+          "scaled_unit": null,
+          "offset": null
+        },
+        {
+          "name": "x",
+          "type": "space",
+          "unit": null,
+          "min": 47.0,
+          "max": 632.0,
+          "scale": null,
+          "scaled_unit": null,
+          "offset": null
+        }
+      ],
+      "node_props_metadata": {
+        "t": {
+          "identifier": "t",
+          "dtype": "int32",
+          "varlength": false,
+          "unit": null,
+          "name": null,
+          "description": null
+        },
+        "z": {
+          "identifier": "z",
+          "dtype": "float64",
+          "varlength": false,
+          "unit": null,
+          "name": null,
+          "description": null
+        },
+        "y": {
+          "identifier": "y",
+          "dtype": "float64",
+          "varlength": false,
+          "unit": null,
+          "name": null,
+          "description": null
+        },
+        "x": {
+          "identifier": "x",
+          "dtype": "float64",
+          "varlength": false,
+          "unit": null,
+          "name": null,
+          "description": null
+        },
+        "orphan_prob": {
+          "identifier": "orphan_prob",
+          "dtype": "float32",
+          "varlength": false,
+          "unit": null,
+          "name": null,
+          "description": null
+        },
+        "solution": {
+          "identifier": "solution",
+          "dtype": "bool",
+          "varlength": false,
+          "unit": null,
+          "name": null,
+          "description": null
+        },
+        "tracklet_id": {
+          "identifier": "tracklet_id",
+          "dtype": "int64",
+          "varlength": false,
+          "unit": null,
+          "name": null,
+          "description": null
+        }
+      },
+      "edge_props_metadata": {
+        "distance": {
+          "identifier": "distance",
+          "dtype": "float64",
+          "varlength": false,
+          "unit": null,
+          "name": null,
+          "description": null
+        },
+        "delta_t": {
+          "identifier": "delta_t",
+          "dtype": "float32",
+          "varlength": false,
+          "unit": null,
+          "name": null,
+          "description": null
+        },
+        "similarity": {
+          "identifier": "similarity",
+          "dtype": "float32",
+          "varlength": false,
+          "unit": null,
+          "name": null,
+          "description": null
+        },
+        "solution": {
+          "identifier": "solution",
+          "dtype": "bool",
+          "varlength": false,
+          "unit": null,
+          "name": null,
+          "description": null
+        }
+      },
+      "sphere": null,
+      "ellipsoid": null,
+      "track_node_props": {
+        "tracklet": "tracklet_id"
+      },
+      "related_objects": null,
+      "display_hints": null,
+      "extra": {
+        "tracksdata": {
+          "shape": [
+            115,
+            1,
+            520,
+            696
+          ],
+          "distance_threshold": 300.0,
+          "n_neighbors": 5,
+          "delta_t": 3,
+          "scale": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "was_2d": true
+        }
+      }
+    }
+  },
+  "zarr_format": 3,
+  "node_type": "group"
+}

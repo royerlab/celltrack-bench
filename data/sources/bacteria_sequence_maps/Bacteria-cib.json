@@ -1,0 +1,10 @@
+{
+  "01": {
+    "source_sequence": "140409-03",
+    "source_path": "datasets_raw/Bacteria-vanVliet/cib/140409-03"
+  },
+  "02": {
+    "source_sequence": "140415-08",
+    "source_path": "datasets_raw/Bacteria-vanVliet/cib/140415-08"
+  }
+}

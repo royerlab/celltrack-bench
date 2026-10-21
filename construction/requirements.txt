@@ -1,0 +1,8 @@
+# Environment the released benchmark was built with (Python 3.11).
+numpy==2.4.6
+scipy==1.17.1
+zarr==3.1.6
+tracksdata==0.1.0rc6
+geff==1.2.0.1.1
+tifffile==2026.3.3
+opencv-python-headless==5.0.0.93

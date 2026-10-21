@@ -1,0 +1,40 @@
+{
+  "benchmark": {
+    "digest": "3bdb6d31bf98f548",
+    "identity": "celltrack-bench-consensus-v2-3bdb6d31bf98f548",
+    "items_root": "/mnt/main0/home/ilan.silva/projects/tracking-benchmark/evaluation/celltrack_bench_consensus_v2/test/items",
+    "label": "celltrack-bench-consensus-v2",
+    "source_data_root": "/mnt/main0/home/ilan.silva/projects/tracking-benchmark",
+    "split": "test",
+    "split_dir": "/mnt/main0/home/ilan.silva/projects/experiment_harness/splits/celltrack_bench_consensus_v2"
+  },
+  "conditions": [
+    1
+  ],
+  "response_config": {
+    "answer_reserve": 2048,
+    "backend": "anthropic",
+    "base_url": null,
+    "benchmark_identity": "celltrack-bench-consensus-v2-3bdb6d31bf98f548",
+    "chat_template_kwargs": null,
+    "final_reasoning_effort": "none",
+    "harness_revision": "v10",
+    "harness_source_digest": "5aa47d16e88d16d6",
+    "label": null,
+    "model": "claude-haiku-4-5-20251001",
+    "output_budget": 8192,
+    "reasoning_effort": "none",
+    "source_data_root": "/mnt/main0/home/ilan.silva/projects/tracking-benchmark",
+    "temperature": 1.0,
+    "tool_call_safety_cap": 40,
+    "top_p": 0.95
+  },
+  "response_id": "7caf66ac6d3cb2a7",
+  "run_id": "ec17bb2edf8f",
+  "schema_version": 1,
+  "tasks": [
+    "cell_linking",
+    "track_repair",
+    "track_inspection"
+  ]
+}

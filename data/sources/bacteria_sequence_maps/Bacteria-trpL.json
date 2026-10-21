@@ -1,0 +1,26 @@
+{
+  "01": {
+    "source_sequence": "150303-01",
+    "source_path": "datasets_raw/Bacteria-vanVliet/trpL/150303-01"
+  },
+  "02": {
+    "source_sequence": "150303-08_BAD",
+    "source_path": "datasets_raw/Bacteria-vanVliet/trpL/150303-08_BAD"
+  },
+  "03": {
+    "source_sequence": "150309-04",
+    "source_path": "datasets_raw/Bacteria-vanVliet/trpL/150309-04"
+  },
+  "04": {
+    "source_sequence": "150310-11",
+    "source_path": "datasets_raw/Bacteria-vanVliet/trpL/150310-11"
+  },
+  "05": {
+    "source_sequence": "150428-08",
+    "source_path": "datasets_raw/Bacteria-vanVliet/trpL/150428-08"
+  },
+  "06": {
+    "source_sequence": "151021-11",
+    "source_path": "datasets_raw/Bacteria-vanVliet/trpL/151021-11"
+  }
+}

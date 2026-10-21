@@ -1,0 +1,26 @@
+[project]
+name = "celltrack-bench"
+version = "1.0.0"
+description = "CellTrack-Bench: microscopic cell-tracking benchmark for vision-language models"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "numpy",
+    "opencv-python-headless",
+    "tifffile",
+]
+
+[project.optional-dependencies]
+# model backends used by the runner (hosted APIs and OpenAI-compatible servers such as vLLM)
+run = ["openai>=1.40", "anthropic>=0.40"]
+dev = ["pytest"]
+
+[build-system]
+requires = ["setuptools>=64"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+packages = ["celltrack_bench"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

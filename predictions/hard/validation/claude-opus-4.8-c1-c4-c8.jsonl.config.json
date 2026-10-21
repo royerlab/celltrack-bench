@@ -1,0 +1,40 @@
+{
+  "benchmark": {
+    "digest": "6e05798663aaf734",
+    "identity": "celltrack-bench-consensus-v2-6e05798663aaf734",
+    "items_root": "/mnt/main0/home/ilan.silva/projects/tracking-benchmark/evaluation/celltrack_bench_consensus_v2/validation/items",
+    "label": "celltrack-bench-consensus-v2",
+    "source_data_root": "/mnt/main0/home/ilan.silva/projects/tracking-benchmark",
+    "split": "validation",
+    "split_dir": "/mnt/main0/home/ilan.silva/projects/experiment_harness/splits/celltrack_bench_consensus_v2"
+  },
+  "conditions": [
+    1,
+    4,
+    8
+  ],
+  "response_config": {
+    "answer_reserve": 2048,
+    "backend": "anthropic",
+    "base_url": null,
+    "benchmark_identity": "celltrack-bench-consensus-v2-6e05798663aaf734",
+    "chat_template_kwargs": null,
+    "final_reasoning_effort": "none",
+    "harness_revision": "v10",
+    "harness_source_digest": "5aa47d16e88d16d6",
+    "label": null,
+    "model": "claude-opus-4-8",
+    "output_budget": 8192,
+    "reasoning_effort": "low",
+    "source_data_root": "/mnt/main0/home/ilan.silva/projects/tracking-benchmark",
+    "temperature": 1.0,
+    "tool_call_safety_cap": 40,
+    "top_p": 0.95
+  },
+  "response_id": "8619faeff198c1da",
+  "run_id": "0a15ade8d16b",
+  "schema_version": 1,
+  "tasks": [
+    "cell_linking"
+  ]
+}

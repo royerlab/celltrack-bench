@@ -1,0 +1,211 @@
+{
+ "benchmark": "data/hard",
+ "condition": 1,
+ "splits": {
+  "test": [
+   {
+    "name": "gpt-5.6-sol",
+    "display": "GPT-5.6 (sol)",
+    "access": "API",
+    "files": [
+     "predictions/hard/test/gpt-5.6-sol.jsonl.gz"
+    ]
+   },
+   {
+    "name": "gpt-5.6-terra",
+    "display": "GPT-5.6 (terra)",
+    "access": "API",
+    "files": [
+     "predictions/hard/test/gpt-5.6-terra.jsonl.gz"
+    ]
+   },
+   {
+    "name": "claude-fable-5",
+    "display": "Claude Fable 5",
+    "access": "API",
+    "files": [
+     "predictions/hard/test/claude-fable-5.jsonl.gz"
+    ]
+   },
+   {
+    "name": "gpt-5.5",
+    "display": "GPT-5.5",
+    "access": "API",
+    "files": [
+     "predictions/hard/test/gpt-5.5.jsonl.gz"
+    ]
+   },
+   {
+    "name": "claude-opus-5",
+    "display": "Claude Opus 5",
+    "access": "API",
+    "files": [
+     "predictions/hard/test/claude-opus-5.jsonl.gz"
+    ]
+   },
+   {
+    "name": "claude-opus-4.8",
+    "display": "Claude Opus 4.8",
+    "access": "API",
+    "files": [
+     "predictions/hard/test/claude-opus-4.8.jsonl.gz"
+    ]
+   },
+   {
+    "name": "gemma-4-31b",
+    "display": "Gemma 4 31B",
+    "access": "Weights",
+    "files": [
+     "predictions/hard/test/gemma-4-31b.jsonl.gz"
+    ]
+   },
+   {
+    "name": "gpt-5.6-luna",
+    "display": "GPT-5.6 (luna)",
+    "access": "API",
+    "files": [
+     "predictions/hard/test/gpt-5.6-luna.jsonl.gz"
+    ]
+   },
+   {
+    "name": "claude-haiku-4.5",
+    "display": "Claude Haiku 4.5",
+    "access": "API",
+    "files": [
+     "predictions/hard/test/claude-haiku-4.5.jsonl.gz"
+    ]
+   },
+   {
+    "name": "qwen3.5-397b-a17b",
+    "display": "Qwen3.5-397B-A17B",
+    "access": "Weights",
+    "files": [
+     "predictions/hard/test/qwen3.5-397b-a17b.jsonl.gz"
+    ]
+   },
+   {
+    "name": "qwen3.5-122b-a10b",
+    "display": "Qwen3.5-122B-A10B",
+    "access": "Weights",
+    "files": [
+     "predictions/hard/test/qwen3.5-122b-a10b.jsonl.gz"
+    ]
+   },
+   {
+    "name": "glm-4.6v",
+    "display": "GLM-4.6V",
+    "access": "Weights",
+    "files": [
+     "predictions/hard/test/glm-4.6v.jsonl.gz"
+    ]
+   },
+   {
+    "name": "inkling-small",
+    "display": "Inkling-Small",
+    "access": "Weights",
+    "files": [
+     "predictions/hard/test/inkling-small.jsonl.gz"
+    ]
+   },
+   {
+    "name": "minimax-m3",
+    "display": "MiniMax M3",
+    "access": "Weights",
+    "files": [
+     "predictions/hard/test/minimax-m3.jsonl.gz"
+    ]
+   },
+   {
+    "name": "claude-sonnet-5",
+    "display": "Claude Sonnet 5",
+    "access": "API",
+    "files": [
+     "predictions/hard/test/claude-sonnet-5.jsonl.gz"
+    ]
+   },
+   {
+    "name": "qwen3.6-27b",
+    "display": "Qwen3.6-27B",
+    "access": "Weights",
+    "files": [
+     "predictions/hard/test/qwen3.6-27b-rA.jsonl.gz",
+     "predictions/hard/test/qwen3.6-27b-rB.jsonl.gz"
+    ]
+   },
+   {
+    "name": "qwen3.5-35b-a3b",
+    "display": "Qwen3.5-35B-A3B",
+    "access": "Weights",
+    "files": [
+     "predictions/hard/test/qwen3.5-35b-a3b.jsonl.gz"
+    ]
+   },
+   {
+    "name": "kimi-k3",
+    "display": "Kimi K3",
+    "access": "Weights",
+    "files": [
+     "predictions/hard/test/kimi-k3.jsonl.gz"
+    ]
+   },
+   {
+    "name": "internvl3.5-38b",
+    "display": "InternVL3.5-38B",
+    "access": "Weights",
+    "files": [
+     "predictions/hard/test/internvl3.5-38b.jsonl.gz"
+    ]
+   },
+   {
+    "name": "mistral-medium-3.5-128b",
+    "display": "Mistral Medium 3.5 128B",
+    "access": "Weights",
+    "files": [
+     "predictions/hard/test/mistral-medium-3.5-128b.jsonl.gz"
+    ]
+   },
+   {
+    "name": "molmo2-8b",
+    "display": "Molmo2-8B",
+    "access": "Weights",
+    "files": [
+     "predictions/hard/test/molmo2-8b.jsonl.gz"
+    ]
+   },
+   {
+    "name": "llama-4-scout",
+    "display": "Llama 4 Scout",
+    "access": "Weights",
+    "files": [
+     "predictions/hard/test/llama-4-scout.jsonl.gz"
+    ]
+   }
+  ],
+  "validation": [
+   {
+    "name": "gpt-5.5",
+    "display": "GPT-5.5 (c1-c8 harness sweep)",
+    "access": "API",
+    "files": [
+     "predictions/hard/validation/gpt-5.5-c1-c8.jsonl.gz"
+    ]
+   },
+   {
+    "name": "claude-opus-4.8",
+    "display": "Claude Opus 4.8 (c1/c4/c8)",
+    "access": "API",
+    "files": [
+     "predictions/hard/validation/claude-opus-4.8-c1-c4-c8.jsonl.gz"
+    ]
+   },
+   {
+    "name": "gpt-5.6-terra",
+    "display": "GPT-5.6 (terra)",
+    "access": "API",
+    "files": [
+     "predictions/hard/validation/gpt-5.6-terra.jsonl.gz"
+    ]
+   }
+  ]
+ }
+}
