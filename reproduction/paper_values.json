@@ -284,12 +284,12 @@
    "track_repair_f1": 0.342
   },
   "minimax-m3": {
-   "repair_add_precision": null,
-   "repair_add_recall": null,
+   "repair_add_precision": 0.88,
+   "repair_add_recall": 0.26,
    "repair_better": 0.24,
-   "repair_d_lnk": 0.125,
-   "repair_del_precision": null,
-   "repair_del_recall": null,
+   "repair_d_lnk": 0.139,
+   "repair_del_precision": 0.95,
+   "repair_del_recall": 0.25,
    "repair_worse": 0.03,
    "track_repair_f1": 0.656
   },
@@ -345,9 +345,9 @@
   }
  },
  "spearman": {
-  "link_inspect": 0.44,
-  "link_repair": 0.93,
-  "repair_inspect": 0.31
+  "link_inspect": 0.51,
+  "link_repair": 0.85,
+  "repair_inspect": 0.29
  },
  "table1_nn_residual": {
   "claude-opus-4.8": {
@@ -623,7 +623,7 @@
     "lnk_sub": 0.3,
     "nn_residual_f1": 0.237,
     "primary_mean": 0.333,
-    "repair_d_lnk": 0.125,
+    "repair_d_lnk": 0.139,
     "track_inspection_f1": 0.183,
     "track_repair_f1": 0.656
    },

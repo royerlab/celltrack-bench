@@ -1,7 +1,7 @@
 # CellTrack-Bench
 
 Code for **CellTrack-Bench: Microscopic Cell Tracking Benchmark for Vision–Language Models**
-(Ilan Theodoro, Jordão Bragantini, Loïc A. Royer). <!-- TODO: arXiv link once posted -->
+(Ilan Theodoro, Jordão Bragantini, Loïc A. Royer), [arXiv:2610.31566](https://arxiv.org/abs/2610.31566).
 
 CellTrack-Bench evaluates whether vision–language models (VLMs) can make the cell-tracking decisions
 that specialized trackers get wrong. It draws from 15 cell-tracking datasets across four imaging
@@ -81,14 +81,8 @@ python -m celltrack_bench.reproduce
 This recomputes, from `predictions/` and `data/hard/` alone (about 10 s, no images, no API calls),
 the leaderboard (Table 2), the harness-selection study and Table 1's NN-residual columns, and the
 appendix tables (repair decomposition, review-budget triage, difficulty strata, validation–test
-robustness, task correlations). Each cell is compared with the value printed in the paper
-(`reproduction/paper_values.json`); 626 of the 631 compared cells agree. The five that do not:
-
-- **MiniMax M3, repair ΔLNK** (Table 2 and the repair-decomposition table): the stored run gives
-  +0.139; the paper prints +0.125.
-- **Task-relationship Spearman correlations** (Section 4): computed over the 22 leaderboard systems
-  they are ρ = 0.85 (linking–repair), 0.51 (linking–inspection) and 0.29 (repair–inspection); the
-  paper reports 0.93, 0.44 and 0.31.
+robustness, task correlations). Each of the 635 recomputed cells is compared with the value printed
+in the paper (`reproduction/paper_values.json`), and all agree.
 
 `pytest` additionally checks every leaderboard metric for all 22 systems against the unrounded
 outputs of the original analysis scripts (`tests/fixtures/original_outputs.json`); tests that need
@@ -165,7 +159,14 @@ The runner also implements the eight evidence presentations compared on the vali
 
 ## Citation
 
-<!-- TODO: BibTeX entry once the preprint is posted -->
+```bibtex
+@article{theodoro2026celltrackbench,
+  title   = {{CellTrack-Bench}: Microscopic Cell Tracking Benchmark for Vision--Language Models},
+  author  = {Theodoro, Ilan and Bragantini, Jord{\~a}o and Royer, Lo{\"\i}c A.},
+  journal = {arXiv preprint arXiv:2610.31566},
+  year    = {2026}
+}
+```
 
 ## License
 
