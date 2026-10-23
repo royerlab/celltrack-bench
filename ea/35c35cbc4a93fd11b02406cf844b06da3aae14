@@ -1,0 +1,21 @@
+README.md
+  s_ff513a1b011579::t_e42fc6870500b1 4,84-85,162-169
+reproduction/paper_values.json
+  s_ff513a1b011579::t_bb7e31c0c885e3 287-288,290-292,348-350,626
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "ea35c35cbc4a93fd11b02406cf844b06da3aae14",
+  "prompts": {},
+  "sessions": {
+    "s_ff513a1b011579": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "577f458f-5f0b-4a1d-a38a-ab75b6fa990e",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "Ilan <ilan.silva@czbiohub.org>"
+    }
+  }
+}
